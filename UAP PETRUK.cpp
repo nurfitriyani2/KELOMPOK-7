@@ -5,8 +5,7 @@ using namespace std;
 
 struct vendingMachine{
 	int top;
-	string data[4];
-	
+	string data[4];	
 };
 string dat;
 
