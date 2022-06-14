@@ -1,6 +1,13 @@
+// Nama Kelompok 7
+// Talia Desty Maharani_2117051017
+// Retno Lestari_2117051077
+// Nur fitriyani_2117051096
+// Shafira Andaya Putri_2157051009
+
+
 #include <iostream>
 #include <conio.h>
-#define maks 5 //nilai maks nya 5
+#define maks 5           //nilai maks nya 5
 using namespace std;
 
 struct vendingMachine{
@@ -11,7 +18,7 @@ string dat;
 
 struct vendingMachine M;
 
-bool isFull(){ //untuk mengecek apakah datanya full
+bool isFull(){         //untuk mengecek apakah datanya full
 	if (M.top==maks){
 		return true;
 	}else{
@@ -19,7 +26,7 @@ bool isFull(){ //untuk mengecek apakah datanya full
 	}
 }
 
-bool isEmpty(){ //untuk mengecek apakah data nya kosong
+bool isEmpty(){        //untuk mengecek apakah data nya kosong
 	if(M.top == -1){
 		return true;
 	}else{
@@ -27,8 +34,8 @@ bool isEmpty(){ //untuk mengecek apakah data nya kosong
 	}
 }
 
-//untuk menambah kan satu data
-void push(string dat){ //
+       //untuk menambah kan satu data
+void push(string dat){ 
 	if(isFull()==true){
 		cout<<"Barang sudah penuh"<<endl;
 	}else{
