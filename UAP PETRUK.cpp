@@ -34,8 +34,7 @@ bool isEmpty(){        //untuk mengecek apakah data nya kosong
 	}
 }
 
-       //untuk menambah kan satu data
-void push(string dat){ 
+void push(string dat){        //untuk menambah kan satu data
 	if(isFull()==true){
 		cout<<"Barang sudah penuh"<<endl;
 	}else{
@@ -44,8 +43,8 @@ void push(string dat){
 	}
 }
 
-//untuk mengambil satu data paling atas
-void pop(){
+
+void pop(){          //untuk mengambil satu data paling atas
 	if(isEmpty()==true){
 		cout<<"Barang sudah habis/kosong"<<endl;
 	}else{
@@ -54,14 +53,14 @@ void pop(){
 	}
 }
 
-void print(){
+void print(){          // untuk menampilkan data
 	cout<<"\nTumpukan Barang : \n";
 	for(int i=M.top; i>=0; i--){
 		cout<<" "<<M.data[i]<<endl;
 	}
 }
 
-void clear(){
+void clear(){       //untuk mengosongkan atau menghapus data
 	cout<<"\nBarang telah kosong";
 	M.top=-1;
 }
