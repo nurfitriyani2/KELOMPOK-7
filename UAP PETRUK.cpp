@@ -106,5 +106,3 @@ int main(){
 	}
 	while(ulang=='y');
 }
-
-hello
