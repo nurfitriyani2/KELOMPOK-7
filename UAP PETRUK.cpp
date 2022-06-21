@@ -6,8 +6,8 @@
 	    Tema : Vending Machine
 */
 
-#include <iostream>
-#include <conio.h>
+#include <iostream> //untuk menampilkan perintah cin, cout, dan endl
+#include <conio.h> //untuk menampilkan fungsi getch
 #define maks 5           //nilai maks nya 5
 using namespace std;
 
@@ -66,6 +66,7 @@ void clear(){       //untuk mengosongkan atau menghapus data
 	M.top=-1;
 }
 
+//fungsi utama
 int main(){
 	M.top=-1;
 	int pilihan;
